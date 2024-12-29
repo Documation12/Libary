@@ -3997,7 +3997,6 @@ function Library:CreateWindow(...)
 		task.wait(FadeTime);
 
 		Outer.Visible = Toggled;
-                ColorPicker:Hide();
 		Fading = false;
 	end
 
